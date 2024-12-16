@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/MAIN-STYLE.css">
+<link rel="icon" href="Image/settings_24dp_025C3A_FILL0_wght400_GRAD0_opsz24.svg">
+<link rel="stylesheet" href="CSS/all.css">
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+	<body>
+	<nav> 
+	
+		<div class="container">
+	<a href="index.html" class="nav-brand">Hieu Portfolio</a>
+		<button type="button" class="btn-toggle">
+		<span class="fa-solid fa-bars fa-lg"></span>		
+		</button>
+	<div id="menu">
+	<ul>
+		<li class="font-nav-bar"><a href="index.html">Home</a></li>
+		<li class="font-nav-bar">
+			<a href="#" id="btn-dropdown">About <span class="fa-solid fa-angle-down"></span></a>
+				<ul id="dropdown-menu">
+			<li style="font-size: 1.1rem" ><a href="about.html#cv">My Resume</a></li>
+			<li style="font-size: 1.1rem" ><a href="about.html#skill">My Skills</a></li>
+			<li style="font-size: 1.1rem"><a href="about.html#tes">My Customer</a></li>
+				</ul>
+		</li>
+		<li class="font-nav-bar"><a href="Service.html">Service</a></li>
+		<li class="font-nav-bar"><a href="project.html">Projects</a></li>
+		<li class="font-nav-bar"><a href="team.html">Team</a></li>
+		<li class="font-nav-bar"><a href="contact.html">Contact</a></li>
+	</ul>
+	</div>
+	</div>
+	</nav>
+		
+		<section id="cv" class="td-trang">
+  
+			<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <h1>GET IN TOUCH RIGHT NOW </h1>
+			<p><a href="index.html">Home&nbsp; </a><span class="fa-solid fa-arrow-alt-circle-right"></span> Contact</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+		</section>
+		
+			<section id="map">
+		<div data-aos="fade-up">	
+		<h1 class="text-center"> Our Adress</h1>
+			<h3 class="text-center feedback-text">Số 6 Tân Kỳ Tân Quý (gần Etown), P.15, Q.Tân Bình</h3>
+		<div class="col-12">
+			<div class="map-container mx-auto">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.096458281321!2d106.63430737451748!3d10.803923958686985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175295a715fa2fb%3A0xa85f7fc3936c5e02!2zNiDEkC4gVMOibiBL4buzIFTDom4gUXXDvSwgUGjGsOG7nW5nIDEzLCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1734158256967!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></div>
+		</section>
+<footer class="bg-dark text-light">
+	<div class="container">
+	<div class="row">
+		<div class="col-12 col-md-6 col-lg-4">
+		<h4 class="font-dacbiet">About me</h4>
+			 <p>A passionate designer with a focus on creativity and functionality. Crafting impactful digital experiences through design, from logos to web interfaces.</p>
+			<h5>COPYRIGHT ©2024 HIEU NGUYEN <br>
+	         ALL RIGHTS REVERSE</h5>
+		
+		
+		
+		
+		
+		</div>
+	  <div class="col-12 col-md-6 col-lg-4">
+		<h4 class="font-dacbiet">Contact Me</h4>
+		<p><i class="fa-solid fa-envelope"></i> Banhbaobonggon@gmail.com</p>
+		<p><i class="fa-solid fa-phone-alt">&nbsp;&nbsp; </i>Zalo:0937189050</p>
+		</div>
+		<div class="col-12 col-md-6 col-lg-4">
+		<h4 class="font-dacbiet"> My Social</h4>
+		<p class="i-ss">
+			<a href="https://www.behance.net/trungnguyen452" target="_blank">
+         <i class="fa-brands fa-behance fa-2x"></i></a>      
+			<a href="https://www.facebook.com/saigonnb.29/" target="_blank" rel="noopener noreferrer">
+         <i class="fa-brands fa-facebook fa-2x"></i></a>
+			<a href="https://www.instagram.com/nghieutrung/" target="_blank"> 
+				<i class="fa-brands fa-instagram fa-2x"></i></a>
+			<a href="https://www.pinterest.com/banhbaobonggon/_profile/" target="_blank">
+         <i class="fa-brands fa-pinterest fa-2x"></i>
+      </a>
+		</p>
+		</div>
+		
+		
+		</div>
+	
+	</div>
+	
+	
+	</footer>
+		<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();  
+</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("#dropdown-menu").hide();
+
+   
+    $(".btn-toggle").click(function () {
+      $("#menu").slideToggle("slow");
+    });
+
+   
+    $("#btn-dropdown").click(function (e) {
+      e.preventDefault();
+      $("#dropdown-menu").slideToggle("slow");
+    });
+
+   
+    $(window).resize(function () {
+      if ($(window).width() >= 992) {
+        $("#menu").show(); 
+        $("#dropdown-menu").hide(); 
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
